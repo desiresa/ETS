@@ -33,7 +33,7 @@ mvn -version
 ````
 ![](./imagen/10.png)
 
-Con esto ya tenemos instalado Maven, pero también podemos instalar una versión en concreto descargandolo desde la página de Apache.
+Con esto ya tenemos instalado Maven, pero también podemos instalar una versión en concreto descargándolo desde la página de Apache.
 
 ## 2. Instalar una versión en concreto de Apache maven <a name="instalar2"></a>
 
@@ -81,6 +81,7 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 ````
 /etc/profile.d/maven.sh
 ````
+![](./imagen/12.png)
 
 ![](./imagen/12.png)
 

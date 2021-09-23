@@ -82,6 +82,8 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 /etc/profile.d/maven.sh
 ````
 
+![](./imagen/12.png)
+
 Cambiamos los permisos del archivo:
 
 ````

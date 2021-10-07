@@ -4,7 +4,7 @@
 
 ## Índice
 
-1. [1. Pasos](#ide1)
+1. [Pasos](#ide1)
 
 Para instalar otra versión del IDE Netbeans, deberemos comprobar la versión de java que tengamos instalada.
 
@@ -12,14 +12,14 @@ Para instalar otra versión del IDE Netbeans, deberemos comprobar la versión de
 java -version
 ````
 
-![](../imagen/)
+![](../imagen/2.png)
 
 ## 1. Pasos <a name="ide1"></a>
 
   - Esta vez descargaremos la versión de Netbeans desde la página web.
 [Netbeans 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html).
 
-![]()
+![](../imagen/net8-1.png)
 
   - Después de la descarga, abriremos un terminal desde la carpeta donde se nos haya descargado. Cambiamos los permisos del archivo con chmod para hacerlo ejecutable.
 

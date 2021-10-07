@@ -27,7 +27,7 @@ sudo snap install netbeans --classic
 ````
 ![](../imagen/3.png)
 
-Cuando veamos el mensaje 'netbeans 12.5 from Apache NetBeans✓ installed'
+Cuando veamos el mensaje 'netbeans 12.5 from Apache NetBeans✓ installed' ha terminado la instalación.
 
 
 ## 3. Ejecutando Netbeans 12 <a name="ide3"></a>

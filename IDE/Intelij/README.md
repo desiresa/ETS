@@ -6,6 +6,7 @@
 
 1. [Pasos](#ide1)
 2. [Instalación](#ide2)
+3. [Lanzamiento de IntelliJ](#ide3)
 
 ## 1. Pasos <a name="ide1"></a>
 
@@ -26,7 +27,7 @@ sudo snap install intellij-idea-community --classic
 
 ![](../imagen/img1.png)
 
-## 3. Lanzamiento de IntelliJ
+## 3. Lanzamiento de IntelliJ <a name="ide3"></a>
 
 Iniciamos el programa desde el menú de nuesto SO.
 

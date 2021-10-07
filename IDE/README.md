@@ -31,6 +31,6 @@ Cuando veamos el mensaje 'netbeans 12.5 from Apache NetBeans✓ installed'
 
 
 ## 3. Ejecutando Netbeans 12 <a name="ide3"></a>
-Ahora podremos ejecutar el programa.
+Ahora podremos ejecutar el programa desde el terminal, o desde el menú.
 
 ![](../imagen/4.png)

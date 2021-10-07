@@ -34,7 +34,7 @@ chmod +x jdk-8u111-nb-8_2-linux-x64.sh
 
 ![](../imagen/net8-3.png)
 
-  - Después de ejecutarlo se abrira el asistente de isntalación de Netbeans8.
+  - Después de ejecutarlo se abrirá el asistente de instalación de Netbeans8.
 
 ![](../imagen/net8-4.png)
 
@@ -50,7 +50,7 @@ chmod +x jdk-8u111-nb-8_2-linux-x64.sh
 
 ![](../imagen/net8-7.png)
 
-  - Una vez, termine la instlación, seleccionaremos 'Finish', y reiniciamos la máquina.
+  - Una vez, termine la instalación, seleccionaremos 'Finish', y reiniciamos la máquina.
 
 ![](../imagen/net8-8.png)
 

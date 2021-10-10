@@ -29,7 +29,7 @@ sudo snap install intellij-idea-community --classic
 
 ## 3. Lanzamiento de IntelliJ <a name="ide3"></a>
 
-Iniciamos el programa desde el menú de nuesto SO.
+Iniciamos el programa desde el menú de nuestro SO.
 
 ![](../imagen/img2.png)
 

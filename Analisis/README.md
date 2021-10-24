@@ -8,7 +8,7 @@ Queremos crear una aplicación para calcular el área de las siguientes figuras:
 
 Para ello empezaremos creando un menú, para facilitar al usuario la elección de la figura. En el menú incluiremos los nombres de todas las figuras, de la siguiente manera:
 ````
-/* **Elige una figura:**
+/* Elige una figura:
 - 1. Triangulo.
 - 2. Cuadrado.
 - 3. Rectángulo.

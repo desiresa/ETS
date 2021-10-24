@@ -4,10 +4,10 @@
 
 Queremos crear una aplicación para calcular el área de las siguientes figuras:
 
-![](../images/1.png)
+![](images/1.png)
 
 Para ello empezaremos creando un menú, para facilitar al usuario la elección de la figura. En el menú incluiremos los nombres de todas las figuras, de la siguiente manera:
-
+````
 /* **Elige una figura:**
 - 1. Triangulo.
 - 2. Cuadrado.
@@ -19,7 +19,7 @@ Para ello empezaremos creando un menú, para facilitar al usuario la elección d
 - 8. Circulo.
 - 9. Salir.
 */
-
+````
 Ahora pasaremos a lo que incluiremos en cada clase de figura, indicando al usuario los datos que necesitaremos a la hora de hacer los cálculos, junto con la clase `Salir`.
 
 ```

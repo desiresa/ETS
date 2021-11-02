@@ -90,7 +90,7 @@ git --version
 
 <div align="center">
 
-![](../Imagen/6.png)
+![](./Imagen/3.png)
 
 </div>
 
@@ -100,7 +100,11 @@ Para poder comenzar a instalar la versión, deberemos actualizar los repositorio
 sudo apt update
 ````
 
-![](../Imagen/.png)
+<div align="center">
+
+![](./Imagen/4.png)
+
+</div>
 
 Y también instalaremos la lista de paquetes necesarios para el correcto funcionamiento de Git.
 
@@ -108,7 +112,11 @@ Y también instalaremos la lista de paquetes necesarios para el correcto funcion
 sudo apt install libz-dev libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext cmake gcc
 ````
 
-![](../Imagen/8.png)
+<div align="center">
+
+![](./Imagen/6.png)
+
+</div>
 
 Después de haber instalado la lista de paquetes, y que no nos haya saltado ningun error. Crearemos una carpeta temporal, donde descargaremos la versión de Git que queramos instalar.
 
@@ -117,18 +125,29 @@ mkdir tmp
 cd /tmp
 ````
 
-![](../Imagen/9.png)
+<div align="center">
+
+![](./Imagen/30.png)
+
+</div>
 
 Desde la página web anterior -> **https://mirrors.edge.kernel.org/pub/software/scm/git/**, escogeremos una versión, en este caso la última hasta el momento. Usando el comando curl *(una herramienta para obtener o enviar datos usando la sintaxis de URL)*, que deberemos instalar si no se encuentra disponible.
 
+<div align="center">
 
 ![](./Imagen/7.png)
 
+</div>
 
 ````
 sudo apt install curl
 ````
+
+<div align="center">
+
 ![](./Imagen/8.png)
+
+</div>
 
 Utilizamos la herramienta curl, junto con la dirección del paquete que queramos descargar, y enviaremos el archivo a git.tar.gz.
 
@@ -136,7 +155,11 @@ Utilizamos la herramienta curl, junto con la dirección del paquete que queramos
 curl -o git.tar.gz https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.29.3.tar.gz
 ````
 
+<div align="center">
+
 ![](./Imagen/9.png)
+
+</div>
 
 Descomprimimos el archivo:
 
@@ -144,7 +167,11 @@ Descomprimimos el archivo:
 tar -zxf git.tar.gz
 ````
 
+<div align="center">
+
 ![](./Imagen/10.png)
+
+</div>
 
 Vamos al directorio donde se encuentra el archivo descomprimido.
 
@@ -152,7 +179,11 @@ Vamos al directorio donde se encuentra el archivo descomprimido.
 cd git-*
 ````
 
+<div align="center">
+
 ![](./Imagen/11.png)
+
+</div>
 
 Creamos el paquete con make, y lo instalamos.
 
@@ -161,6 +192,74 @@ make prefix=/usr/local all
 sudo make prefix=/usr/local install
 ````
 
-![](./Imagen/)
+<div align="center">
+
+![](./Imagen/31.png)
 
 ![](./Imagen/12.png)
+
+</div>
+
+Ahora sustituimos el shell, para que empiece a usar la versión de Git:
+
+````
+exec bash
+````
+
+![](./Imagen/13.png)
+
+Volvemos a comprobar la versión:
+
+````
+git --version
+````
+
+![](./Imagen/14.png)
+
+## 3. Configuración de Git
+
+Para empezar a trabajar con Git deberemos configurarlo, deberemos añadir nuestro nombre de usuario y nuestro correo, que hayamos creado en github.
+Lo añadimos con el siguiente comando:
+
+````
+git config --global user.name "desiresa"
+git config --global user.email "desi_098@outlook.com"
+````
+
+![](./Imagen/15.png)
+
+Podemos comprobar lo que acabamos de añadir con:
+
+````
+git config --list
+````
+
+![](./Imagen/16.png)
+
+Tambien podemos modificar la información modificando con nano el archivo **gitconfig**.
+
+````
+nano ~/.gitconfig
+````
+
+<div align="center">
+
+![](./Imagen/18.png)
+
+</div>
+
+
+````
+~/.gitconfig contents
+[user]
+  name "desiresa"
+  email "desi_098@outlook.com"
+````
+
+<div align="center">
+
+![](./Imagen/17.png)
+
+</div>
+
+Abajo de la terminal tenemos una ayuda para salir del editor *nano*. Con CTRL O, guardamos, y CTRL X salimos.

@@ -22,7 +22,7 @@ Antes de proceder a la realización de la instalación de git, deberemos tener u
 
  3.[Configuración de Git](#id3)
 
-## Instalación de git con paquetes predeterminados <a name="id1"></a>
+## 1. Instalación de git con paquetes predeterminados <a name="id1"></a>
 
 <div style="text-align: justify">
 
@@ -38,7 +38,7 @@ git --version
 
 <div align="center">
 
-![](1.png)
+![](./Imagen/1.png)
 
 </div>
 
@@ -54,7 +54,7 @@ sudo apt update
 
 <div align="center">
 
-![](2.png)
+![](./Imagen/4.png)
 
 </div>
 
@@ -66,14 +66,101 @@ sudo apt install git
 
 <div align="center">
 
-![](3.png)
+![](./Imagen/2.png)
 
 </div>
 
 Nos deberá devolver el siguiente resultado.
 
-![](4.png)
+<div align="center">
 
-## Instalación de Git desde la fuente <a name="id2"></a>
+![](./Imagen/3.png)
+
+</div>
+
+## 2. Instalación de Git desde la fuente <a name="id2"></a>
 
 Esta opción de instalación nos permitirá utilizar cualquier versión de git que queramos usar o simplemente probar. Las podremos encontrar en la siguiente dirección: **https://mirrors.edge.kernel.org/pub/software/scm/git/** .
+
+Primero verificamos si tenemos Git instalado, y la versión que tengamos instalada:
+
+````
+git --version
+````
+
+<div align="center">
+
+![](../Imagen/6.png)
+
+</div>
+
+Para poder comenzar a instalar la versión, deberemos actualizar los repositorios del sistema.
+
+````
+sudo apt update
+````
+
+![](../Imagen/.png)
+
+Y también instalaremos la lista de paquetes necesarios para el correcto funcionamiento de Git.
+
+````
+sudo apt install libz-dev libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext cmake gcc
+````
+
+![](../Imagen/8.png)
+
+Después de haber instalado la lista de paquetes, y que no nos haya saltado ningun error. Crearemos una carpeta temporal, donde descargaremos la versión de Git que queramos instalar.
+
+````
+mkdir tmp
+cd /tmp
+````
+
+![](../Imagen/9.png)
+
+Desde la página web anterior -> **https://mirrors.edge.kernel.org/pub/software/scm/git/**, escogeremos una versión, en este caso la última hasta el momento. Usando el comando curl *(una herramienta para obtener o enviar datos usando la sintaxis de URL)*, que deberemos instalar si no se encuentra disponible.
+
+
+![](./Imagen/7.png)
+
+
+````
+sudo apt install curl
+````
+![](./Imagen/8.png)
+
+Utilizamos la herramienta curl, junto con la dirección del paquete que queramos descargar, y enviaremos el archivo a git.tar.gz.
+
+````
+curl -o git.tar.gz https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.29.3.tar.gz
+````
+
+![](./Imagen/9.png)
+
+Descomprimimos el archivo:
+
+````
+tar -zxf git.tar.gz
+````
+
+![](./Imagen/10.png)
+
+Vamos al directorio donde se encuentra el archivo descomprimido.
+
+````
+cd git-*
+````
+
+![](./Imagen/11.png)
+
+Creamos el paquete con make, y lo instalamos.
+
+````
+make prefix=/usr/local all
+sudo make prefix=/usr/local install
+````
+
+![](./Imagen/)
+
+![](./Imagen/12.png)

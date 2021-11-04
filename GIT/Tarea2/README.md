@@ -4,17 +4,17 @@
 
 1. [Tareas](#id1)
 
-  1.1. [Tarea: Configuración](#id2)
+    1.1. [Tarea: Configuración](#id2)
 
-  1.2. [Tarea: Creación de un repositorio](#id3)
+    1.2. [Tarea: Creación de un repositorio](#id3)
 
-  1.3. [Tarea: Comprobar el estado del respositorio](#id4)
+    1.3. [Tarea: Comprobar el estado del respositorio](#id4)
 
-  1.4. [Tarea: Realizando Commit's](#id5)
+    1.4. [Tarea: Realizando Commit's](#id5)
 
-  1.5. [Tarea: Modificación de ficheros](#id6)
+    1.5. [Tarea: Modificación de ficheros](#id6)
 
-  1.6. [Tarea: Historial](#id7)
+    1.6. [Tarea: Historial](#id7)
 
 ## 1. Tareas<a name="id1"></a>
 ### 1.1. Tarea: Configuración<a name="id2"></a>

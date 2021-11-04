@@ -98,7 +98,11 @@ ls -la
     cat indice.txt
     ````
 
+    <div align="center">
+
     ![](./Imagen/7.png)
+
+    </div>
 
 - Comprobar de nuevo el estado del repositorio.
 

@@ -440,7 +440,7 @@ git log --graph --all --oneline
 - Crear la rama bibliografía, y cambiar a la rama bibliografía.
 
   ````
-  git branch -d bibliografía
+  git branch bibliografía
   git checkout bibliografía
   ````
 
@@ -452,20 +452,16 @@ git log --graph --all --oneline
 
 - Cambiar el fichero bibliografía.txt para que contenga las siguientes referencias:
 
-````
-Scott Chacon and Ben Straub. Pro Git. Apress.
-Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)
-````
+  ````
+  Scott Chacon and Ben Straub. Pro Git. Apress.
+  Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)
+  ````
 
-````
-git
-````
+  <div align="center">
 
-<div align="center">
+  ![](./Imagen/36-2.png)
 
-![](./Imagen/.png)
-
-</div>
+  </div>
 
 
 - Cambiar a la rama main.
@@ -476,32 +472,84 @@ git checkout main
 
 <div align="center">
 
-![](./Imagen/37.png)
+![](./Imagen/37-3.png)
 
 </div>
 
 - Cambiar el fichero bibliografía.txt para que contenga las siguientes referencias:
 
 
+  ````
+  Chacon, S. and Straub, B. Pro Git. Apress.
+  Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+  ````
+
+  <div align="center">
+
+  ![](./Imagen/38.png)
+
+  </div>
+
+- Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje "Añadida nueva referencia bibliográfica".
+
+<div align="center">
+
+![](./Imagen/39.png)
+
+</div>
+
+
+- Fusionar la rama bibliografía con la rama main.
+
+````
+git merge bibliografía
+````
+
+<div align="center">
+
+![](./Imagen/40.png)
+
+</div>
+
+- Resolver el conflicto dejando el fichero bibliografía.txt con las siguientes referencias:
+
 ````
 Chacon, S. and Straub, B. Pro Git. Apress.
 Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
 ````
 
+````
+sudo nano bibliografía.txt
+````
+
+
 <div align="center">
 
-![](./Imagen/38.png)
+![](./Imagen/41.png)
 
 </div>
 
-- Cambiar a la rama main.
+- Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje **"Resuelto conflicto de bibliografía."**
 
 ````
-git checkout
+git commit -a -m "Solucionado conflicto bibliografía."
+````
+
+
+<div align="center">
+
+![](./Imagen/41.png)
+
+</div>
+
+- Mostrar la historia del repositorio incluyendo todas las ramas.
+
+````
+github
 ````
 
 <div align="center">
 
-![](./Imagen/.png)
+![](./Imagen/41.png)
 
 </div>

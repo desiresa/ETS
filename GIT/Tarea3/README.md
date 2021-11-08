@@ -2,7 +2,7 @@
 
 <div style="text-align: justify">
 
-Antes de hacer los ejercicios deberemos haber hecho, [Tarea 1](./GIT/Tarea1/README.md), y [Tarea 2](./GIT/Tarea2/README.md). Ahora haremos un clon del repositorio: https://github.com/jpexposito/libro , para empezar a trabajar a partir de ese repositorio.
+Antes de hacer los ejercicios deberemos haber hecho, [Tarea 1](https://github.com/desiresa/ETS/tree/main/GIT/Tarea1), y [Tarea 2](https://github.com/desiresa/ETS/tree/main/GIT/Tarea2). Ahora haremos un clon del repositorio: https://github.com/jpexposito/libro , para empezar a trabajar a partir de ese repositorio.
 
 ````
 git clone https://github.com/jpexposito/libro

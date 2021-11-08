@@ -466,18 +466,22 @@ git log --graph --all --oneline
 
 - Cambiar a la rama main.
 
-````
-git checkout main
-````
+  ````
+  git checkout main
+  ````
 
-<div align="center">
+  <div align="center">
 
-![](./Imagen/37-3.png)
+  ![](./Imagen/37-3.png)
 
-</div>
+  </div>
 
 - Cambiar el fichero bibliografía.txt para que contenga las siguientes referencias:
 
+  ````
+  sudo nano bibliografia.txt
+  cat bibliografia.txt
+  ````
 
   ````
   Chacon, S. and Straub, B. Pro Git. Apress.
@@ -492,64 +496,66 @@ git checkout main
 
 - Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje "Añadida nueva referencia bibliográfica".
 
-<div align="center">
+  ````
+  git commit -a -m "Añadida nueva referencia bibliográfica."
+  ````
 
-![](./Imagen/39.png)
+  <div align="center">
 
-</div>
+  ![](./Imagen/39.png)
 
+  </div>
 
 - Fusionar la rama bibliografía con la rama main.
 
-````
-git merge bibliografía
-````
+  ````
+  git merge bibliografía
+  ````
 
-<div align="center">
+  <div align="center">
 
-![](./Imagen/40.png)
+  ![](./Imagen/40.png)
 
-</div>
+  </div>
 
 - Resolver el conflicto dejando el fichero bibliografía.txt con las siguientes referencias:
 
-````
-Chacon, S. and Straub, B. Pro Git. Apress.
-Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
-````
+  ````
+  Chacon, S. and Straub, B. Pro Git. Apress.
+  Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+  ````
 
-````
-sudo nano bibliografía.txt
-````
+  ````
+  sudo nano bibliografía.txt
+  cat bibliografia.txt
+  ````
 
+  <div align="center">
 
-<div align="center">
+  ![](./Imagen/41.png)
 
-![](./Imagen/41.png)
-
-</div>
+  </div>
 
 - Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje **"Resuelto conflicto de bibliografía."**
 
-````
-git commit -a -m "Solucionado conflicto bibliografía."
-````
+  ````
+  git commit -a -m "Resuelto conflicto de bibliografia."
+  ````
 
+  <div align="center">
 
-<div align="center">
+  ![](./Imagen/.png)
 
-![](./Imagen/41.png)
-
-</div>
+  </div>
 
 - Mostrar la historia del repositorio incluyendo todas las ramas.
 
 ````
-github
+git log --graph --all --online
 ````
 
 <div align="center">
 
-![](./Imagen/41.png)
+![](./Imagen/.png)
 
 </div>

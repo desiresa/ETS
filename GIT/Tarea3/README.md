@@ -544,18 +544,18 @@ git log --graph --all --oneline
 
   <div align="center">
 
-  ![](./Imagen/.png)
+  ![](./Imagen/42.png)
 
   </div>
 
 - Mostrar la historia del repositorio incluyendo todas las ramas.
 
-````
-git log --graph --all --online
-````
+  ````
+  git log --graph --all --online
+  ````
 
-<div align="center">
+  <div align="center">
 
-![](./Imagen/.png)
+  ![](./Imagen/44.png)
 
-</div>
+  </div>

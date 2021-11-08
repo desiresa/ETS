@@ -2,7 +2,7 @@
 
 <div style="text-align: justify">
 
-Antes de hacer los ejercicios deberemos haber hecho, [Tarea 1](../GIT/Tarea1/README.md), y [Tarea 2](../GIT/Tarea2/README.md). Ahora haremos un clon del repositorio: https://github.com/jpexposito/libro , para empezar a trabajar a partir de ese repositorio.
+Antes de hacer los ejercicios deberemos haber hecho, [Tarea 1](./GIT/Tarea1/README.md), y [Tarea 2](./GIT/Tarea2/README.md). Ahora haremos un clon del repositorio: https://github.com/jpexposito/libro , para empezar a trabajar a partir de ese repositorio.
 
 ````
 git clone https://github.com/jpexposito/libro
@@ -97,7 +97,7 @@ cd libro
 
   <div align="center">
 
-  ![](./Imagen/6-2.png)
+  ![](./Imagen/36-3.png)
 
   </div>
 
@@ -208,6 +208,8 @@ cd libro
 
   ![](./Imagen/16.png)
 
+  ![](./Imagen/16-2.png)
+
   </div>
 
 ## 4. Ejercicio 4: <a name="id4"></a>
@@ -245,7 +247,7 @@ cd libro
   </div>
 
 
-- Hacer un commit de los cambios con el mensaje **Indice de los capitulos, con conceptos avanzados de git**.
+- Hacer un commit de los cambios con el mensaje **Indice de los capítulos, con conceptos avanzados de git**.
 
   ````
   git commit -m "Indice de los capitulos, con conceptos avanzados de git"
@@ -279,6 +281,7 @@ cd libro
 
   ````
   git branch bibliografía
+  git branch -a
   ````
 
   <div align="center">
@@ -305,7 +308,7 @@ cd libro
 
   </div>
 
-- Añadir los cambios a la zona de intercambio temporal, y hacer un commit con el mensaje **Añadido capñitulo 4.**
+- Añadir los cambios a la zona de intercambio temporal, y hacer un commit con el mensaje **Añadido capítulo 4.**
 
   ````
   git add .
